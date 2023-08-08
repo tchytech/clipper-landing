@@ -107,17 +107,27 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 8em;
-}
-.section img{
-    width: 25px;
-}
-.section h4{
-    color: hsl(210, 10%, 33%);
-    margin-top: 1.5em;
-    text-align: center;
+    margin-left: 3em;
 }
 .service-box{
-    color: hsl(201, 11%, 66%);
+    width: 500px;
+    height: 200px;
+    padding: 25px;
+}
+.service-box img{
+    width: 25px;
+    margin-left: 10em;
+    margin-top: 2em;
+    
+}
+.service-box h4{
+    color: hsl(210, 10%, 33%);
     text-align: center;
+    margin-top: 1em;
+}
+.box-text{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    margin-top: 1em;
 }
