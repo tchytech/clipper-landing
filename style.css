@@ -56,20 +56,22 @@ body{
 .mac-btn{
     background-color: hsl(233, 100%, 69%);
 }
-.about h2{
+.about h2,
+.access-header{
     font-size: 28px;
     text-align: center;
     color: hsl(210, 10%, 33%);
     margin-top: 3em;
     font-weight: 600;
 }
-.about .about-text{
+.about .about-text,
+.access-text{
     text-align: center;
     color: hsl(201, 11%, 66%);
     margin-top: 1.5em;
 }
 .about-img img{
-    width: 750px;
+    width: 700px;
 }
 .about-items{
     margin-top: 5em;
@@ -90,4 +92,7 @@ body{
     font-size: 14px;
     margin-top: 15px;
     color: hsl(201, 11%, 66%);
+}
+.access{
+    margin-top: 5em;
 }
