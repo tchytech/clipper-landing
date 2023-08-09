@@ -163,3 +163,19 @@ footer .footer-img{
     width: 16px;
     height: 16px;
 }
+
+@media (min-width:375px) {
+    .hero-section{
+        background-image: url(/images/bg-header-mobile.png);
+    }
+    .hero-section img{
+        margin-left: 12em;
+        margin-top: 5em;
+        width: 150px;
+        height: 150px;
+    }
+    .hero-section h1{
+       text-align: center;
+    
+    }
+}
