@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 body{
     height: 100vh;
     width: 100%;
@@ -51,14 +54,15 @@ body{
 }
 .ios-btn{
     background-color: hsl(171, 66%, 44%);
-    margin-right: .6em;
+    margin-right: 1em;
 }
 .mac-btn{
     background-color: hsl(233, 100%, 69%);
 }
 .about h2,
 .access-header,
-.service-header{
+.service-header,
+.download-header{
     font-size: 28px;
     text-align: center;
     color: hsl(210, 10%, 33%);
@@ -67,7 +71,8 @@ body{
 }
 .about .about-text,
 .access-text,
-.service-text{
+.service-text,
+.download-text{
     text-align: center;
     color: hsl(201, 11%, 66%);
     margin-top: 1em;
@@ -130,4 +135,31 @@ body{
     color: hsl(201, 11%, 66%);
     font-size: 14px;
     margin-top: 1em;
+}
+footer{
+    display: flex;
+    background-color: hsl(0, 0%, 91%);
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5em;
+    color: hsl(210, 2%, 74%);
+    padding: 40px;
+}
+footer .footer-img{
+    width: 40px;
+    height: 40px;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.service-link p a{
+    margin-left: 8em;
+    color: hsl(210, 10%, 33%);
+    font-size: 14px;
+}
+.social-icon img{
+    margin-right: 2em;
+    width: 16px;
+    height: 16px;
 }
