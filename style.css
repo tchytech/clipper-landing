@@ -33,6 +33,7 @@ body{
     color: hsl(210, 10%, 33%);
     text-align: center;
     font-weight: 600;
+    font-size: 40px;
     margin-top: 1em;
 }
 .hero-section .hero-text{
@@ -40,6 +41,7 @@ body{
     font-weight: 400;
     text-align: center;
     margin-top: 15px;
+    font-size: 20px;
     line-height: 1.5;
 }
 .hero-btn{
@@ -63,7 +65,7 @@ body{
 .access-header,
 .service-header,
 .download-header{
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
     color: hsl(210, 10%, 33%);
     margin-top: 3em;
@@ -76,6 +78,7 @@ body{
     text-align: center;
     color: hsl(201, 11%, 66%);
     margin-top: 1em;
+    font-size: 18px;
 }
 .about-img img{
     width: 700px;
@@ -176,7 +179,26 @@ footer .footer-img{
     }
     .hero-section h1{
        text-align: center;
-       word-break: calc(50%);
-    
+       font-size: 45px;
     }
+
+    .hero-text{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 2em;
+
+    }
+    .hero-btn{
+        display: flex;
+        margin: 2em 5em;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about h2{
+        text-align: center;
+        white-space: break-word;
+        font-size: 25px;
+    }
+
 }
